@@ -7,7 +7,7 @@ header{
   @include transition(padding, $transition-speed);
 	position:fixed;
 	z-index:99999;
-	background:$mime-light-blue;
+	background:$light-blue;
 	font-weight: bold;
 	top:0;
 	left:0;

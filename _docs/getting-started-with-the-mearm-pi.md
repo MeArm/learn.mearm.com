@@ -44,7 +44,7 @@ Now we will install some required software...
 
 Install the MeArm software.
 
-`git clone http://github.com/mimeindustries/mearm-js.git`
+`git clone http://github.com/mearm/mearm-js.git`
 
 Move into the mearm repository
 
@@ -80,4 +80,4 @@ Using the slider controllers, set the Base Servo to 0, the Lower Servo to 90, th
 
 ## Build your MeArm Robot Arm
 
-Once calibrated, disconnect the servo motors and MeArm Base Board and follow the build instructions for your [model of the MeArm](https://learn.mime.co.uk).
+Once calibrated, disconnect the servo motors and MeArm Base Board and follow the build instructions for your [model of the MeArm](https://learn.mearm.com).

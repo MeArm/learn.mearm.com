@@ -15,7 +15,7 @@ Attach the MeArm micro:bit Board to your MeArm base, using the screws provided. 
 
 Plug in your BBC micro:bit (sold separately) into the socket on the MeArm micro:bit Board.
 
-Attach a micro USB cable (sold separately) to the BBC micro:bit and drag and drop the [following hex code](http://downloads.mime.co.uk/MeArm/MeArm-microbit.hex) into the BBC micro:bit device using your PC, chromebook, or Mac (all sold separately). 
+Attach a micro USB cable (sold separately) to the BBC micro:bit and drag and drop the [following hex code](http://downloads.mearm.com/MeArm/MeArm-microbit.hex) into the BBC micro:bit device using your PC, chromebook, or Mac (all sold separately). 
 
 ![](/assets/docs/mearm-microbit-setup/microbitsetup.jpg)
 
