@@ -19,8 +19,7 @@ PLEASE NOTE 6V MAX on the Brains Board!
 
  - [Build Guide for MeArm v1.1 (Instructables pdf)](/assets/docs/building-the-mearm-deluxe/MeArm-V1.1.pdf)
 
- - [Hacking the Brains Board](http://learn.mime.co.uk/docs/reprogramming-the-mearm-deluxe/)
- - [Running the MeArm with Scratch (actually Snap)](https://mime.co.uk/blog/2015/11/23/running-the-mearm-with-arduino-and-snap-a-scratch-like-language/)
+ - [Hacking the Brains Board](http://learn.mearm.com/docs/reprogramming-the-mearm-deluxe/)
  
 ![](/assets/docs/building-the-mearm-deluxe/Nuka_Deluxe_on_White_Short_Crop_4200_grande.jpg)
 
@@ -29,7 +28,6 @@ PLEASE NOTE 6V MAX on the Brains Board!
  - [Code that currently ships on Brains Board](https://codebender.cc/sketch:137567)
  - [Cutting Files for MeArm v1.0 (dxf)](/assets/docs/building-the-mearm-deluxe/V1.0Sharing.dxf)
  - [Build Guide for MeArm v0.4 (Instructables Website)](http://www.instructables.com/id/Pocket-Sized-Robot-Arm-meArm-V04/)
- - [Guide for the Brains Board v1.0](https://mime.co.uk/blog/2015/11/23/hacking-the-mearm-brains-board/)
  - [Build Guide for MeArm v1.0 (pdf Manual Revision 1.2)](/assets/docs/building-the-mearm-deluxe/MeArm_v1.0_Manual_v1.2.pdf)
  - [Build Guide for MeArm v1.0 (pdf Manual Revision 1.3)](/assets/docs/building-the-mearm-deluxe/MeArm_v1.0_Manual_v1.3.pdf)
  

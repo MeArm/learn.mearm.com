@@ -27,34 +27,34 @@
 
 #type-filter{
   a.selected{
-    background-color:$mime-light-blue;
+    background-color:$light-blue;
   }
   a.unselected{
-    border:2px solid $mime-light-blue;
+    border:2px solid $light-blue;
     padding:4px;
-    color:$mime-light-blue;
+    color:$light-blue;
   }
 }
 
 #level-filter{
   a.selected{
-    background-color:$mime-orange;
+    background-color:$orange;
   }
   a.unselected{
-    border:2px solid $mime-orange;
+    border:2px solid $orange;
     padding:4px;
-    color:$mime-orange;
+    color:$orange;
   }
 }
 
 #tag-filter{
   a.selected{
-    background-color:$mime-dark-blue;
+    background-color:$dark-blue;
   }
   a.unselected{
-    border:2px solid $mime-dark-blue;
+    border:2px solid $dark-blue;
     padding:4px;
-    color:$mime-dark-blue;
+    color:$dark-blue;
   }
   .count{
     font-weight:normal;
@@ -63,11 +63,11 @@
 
 #hw-filter{
   a.selected{
-    background-color:$mime-yellow;
+    background-color:$yellow;
   }
   a.unselected{
-    border:2px solid $mime-yellow;
+    border:2px solid $yellow;
     padding:4px;
-    color:$mime-yellow;
+    color:$yellow;
   }
 }

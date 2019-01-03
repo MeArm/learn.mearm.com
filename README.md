@@ -1,5 +1,5 @@
-# learn.mime.co.uk
+# learn.mearm.com
 
-[![Build Status](https://travis-ci.org/mimeindustries/learn.mime.co.uk.svg)](https://travis-ci.org/mimeindustries/learn.mime.co.uk)
+[![Build Status](https://travis-ci.org/mearm/learn.mearm.com.svg)](https://travis-ci.org/mearm/learn.mearm.com)
 
-The Jekyll project for [learn.mime.co.uk](http://learn.mime.co.uk)
+The Jekyll project for [learn.mearm.com](http://learn.mearm.com)
