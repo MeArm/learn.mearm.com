@@ -1,8 +1,7 @@
 ---
-title: Building the MeArm V2.0 Series
+title: Building the MeArm maker
 summary: Guide for building the MeArm V2.0 series
 layout: doc
-bodyclass: wide
 tags:
   - Video
   - Guide
