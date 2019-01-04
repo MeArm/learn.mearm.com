@@ -6,7 +6,7 @@ tags:
   - Guide
   - Build
   - micro:bit
-hardware: mearm-microbit
+hardware: mearm-v3
 type: instruction
 level: core
 ---

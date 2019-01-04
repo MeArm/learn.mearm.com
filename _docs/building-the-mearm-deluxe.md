@@ -6,7 +6,7 @@ tags:
   - Build
   - Guide
   - Arduino
-hardware: mearm
+hardware: mearm-v1
 type: instruction
 level: core
 ---

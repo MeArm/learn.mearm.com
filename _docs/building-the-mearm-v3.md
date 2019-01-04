@@ -6,7 +6,9 @@ tags:
   - Build
   - Guide
   - Arduino
-hardware: mearm
+  - micro:bit
+  - Raspberry Pi
+hardware: mearm-v3
 type: instruction
 level: core
 ---

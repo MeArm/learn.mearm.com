@@ -7,7 +7,7 @@ tags:
   - Guide
   - Software
   - Raspberry Pi
-hardware: mearm-pi
+hardware: mearm-v3
 type: instruction
 level: core
 ---

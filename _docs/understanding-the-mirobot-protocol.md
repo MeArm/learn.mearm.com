@@ -5,18 +5,18 @@ layout: doc
 tags:
   - Protocol
   - Guide
+  - Arduino
 hardware:
-  - mirobot-v2
-  - mirobot-v3
+  - mearm-v3
 type: documentation
 level: advanced
 ---
 
-Mirobot uses standard data formats and protocols to enable it to be controlled from any programming language, including directly from the browser. Here's how it works...
+MeArm Arduino uses standard data formats and protocols to enable it to be controlled from any programming language, including directly from the browser. Here's how it works...
 
 High Level Protocol Description
 ===============================
-All communication with Mirobot is done by sending and receiving JSON packets over a WebSocket. Because Mirobot is asynchronous (i.e. it doesn't execute a command immediately) there can be multiple responses to a message that is sent. It can also broadcast notifications for events such as bumping into an obstacle. The JSON message from the client to Mirobot has three parameters:
+All communication with the MeArm Arduino is done by sending and receiving JSON packets over a WebSocket. Because MeArm Arduino is asynchronous (i.e. it doesn't execute a command immediately) there can be multiple responses to a message that is sent. It can also broadcast notifications for events such as bumping into an obstacle. The JSON message from the client to Mirobot has three parameters:
 
  - cmd : the command to be executed
  - arg : any arguments to the command

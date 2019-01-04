@@ -6,7 +6,7 @@ tags:
   - Troubleshooting
   - Help
   - Raspberry Pi
-hardware: mearm-pi
+hardware: mearm-v2
 type: troubleshooting
 level: core
 ---

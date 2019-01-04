@@ -8,7 +8,7 @@ tags:
   - Guide
   - Build
   - Raspberry Pi
-hardware: mearm-pi
+hardware: mearm-v2
 type: instruction
 level: core
 videofile: https://s3.amazonaws.com/video.mime.co.uk/MeArm-Pi-v450.mp4

@@ -5,7 +5,7 @@ layout: doc
 tags:
   - Raspberry Pi
   - HAT
-hardware: mearm-pi
+hardware: mearm-v3
 type: documentation
 level: advanced
 ---
