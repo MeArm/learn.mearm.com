@@ -1,6 +1,6 @@
 ---
 title: Building the MeArm V3
-summary: Building your MeArm Version 3
+summary: Guide for building the MeArm V3.0 series
 layout: doc
 tags:
   - Build
