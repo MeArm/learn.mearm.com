@@ -18,7 +18,7 @@ The MeArm should be fun to build and easy to control. We've spent a lot of time 
 
  - [MeArm Robot for micro:bit kit](/docs/mearm-microbit-setup)
  - [MeArm Robot for Raspberry Pi](/docs/getting-started-with-the-mearm-pi)
- - [MeArm Robot Arduino Compatible kit](/docs/mearm-microbit-setup)
+ - [MeArm Robot Arduino Compatible kit](/docs/getting-started-with-the-mearm-arduino)
  - MeArm Robot Classic Maker Kit - this kit requires you to provide your own controller. See our main category for examples.
 
 Click [here](/assets/mearm.pdf) to download the latest instructions for the MeArm v3. We have put together a step by step guide, with lots of great pictures to help you assemble the MeArm.
