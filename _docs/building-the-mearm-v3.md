@@ -1,6 +1,6 @@
 ---
-title: Building the MeArm V3
-summary: Guide for building the MeArm V3.0 series
+title: Building the MeArm V3 Series
+summary: Guide for building the latest versions of the MeArm Robot
 layout: doc
 tags:
   - Build

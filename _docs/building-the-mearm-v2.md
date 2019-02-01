@@ -1,11 +1,14 @@
 ---
-title: Building the MeArm V2 series
-summary: Guide for building the MeArm V2.0 series
+title: Building the MeArm V2 Series
+summary: Guide for building the second versions of the MeArm Robot
 layout: doc
 tags:
   - Video
   - Guide
   - Build
+  - Arduino
+  - Raspberry Pi
+  - micro:bit
 hardware: mearm-v2
 type: instruction
 level: core
