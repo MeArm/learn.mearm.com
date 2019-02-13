@@ -13,6 +13,10 @@ level: core
 
 The MeArm Robot Arduino Compatible or Wifi Kit is a great place to start with your MeArm adventure. This is the easiest way to get started with the MeArm as the controller board comes preprogrammed. This means you just need to power the control board using a USB power supply or battery pack, connect it to the MeArm base board, and connect the servo motors to start the calibration process.
 
+We cover this whole process in the following video, in addition to the written instuctions below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPdbs9b5udQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Attach the servo motors provided to your MeArm Base Board, matching the Orange wire to the Y (or O on later boards). Connect the MeArm Arduino Compatible Board and MeArm Base Board together using the 6 pin ribbon cable provided.
 
 Power the MeArm Arduino Compatible Board using a 2A+ 5V USB Power Supply or a 6V AA battery pack (both sold separately).
