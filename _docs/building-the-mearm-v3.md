@@ -23,3 +23,8 @@ The MeArm should be fun to build and easy to control. We've spent a lot of time 
 
 Click [here](/assets/mearm.pdf) to download the latest instructions for the MeArm v3. We have put together a step by step guide, with lots of great pictures to help you assemble the MeArm.
 
+Additionally. in association with [Kitronik](http://www.kitronik.co.uk), we have produced this set of video instructions:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPdbs9b5udQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
