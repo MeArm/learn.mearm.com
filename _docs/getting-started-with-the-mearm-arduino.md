@@ -29,7 +29,9 @@ This is the calibration of your servo motors completed. Use them as required in 
 
 Once assembled you can reprogram your Arduino Compatible Board using the [Arduino IDE](https://www.arduino.cc/en/main/software)
 
-There are some additional steps to follow once downloading the IDE, before you can interact with the board over your USB connection. Follow the instructions on the [ESP8266](http://esp8266.github.io/Arduino/versions/2.3.0/doc/installing.html) page to set up the board manager
+There are some additional steps to follow once downloading the IDE, before you can interact with the board over your USB connection. Follow the instructions on the [ESP8266](http://esp8266.github.io/Arduino/versions/2.3.0/doc/installing.html) page to set up the board manager. Please install version 2.3.0. We are currently working on the latest version.
 
 Download the [Marceu library](https://github.com/mimeindustries/Marceau) and [MeArm libraries](https://github.com/mimeindustries/MeArm-Arduino) from our Github and follow the instructions to expand your control of the device. We understand this is an advanced step, but we are working to make this a more simple process.
+
+Some users have an experienced an issue where you need to reset the ESP8266, this is done by grounding P0. P0 is available on the underside of the Arduino Compatible board.
 
