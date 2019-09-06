@@ -4,7 +4,7 @@ language:
 jdk: openjdk8
 cache: bundler
 rvm:
-- 2.6.4
+- 2.6.0
 script: ./bin/test
 
 git:
