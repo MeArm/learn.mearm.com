@@ -1,7 +1,5 @@
 language:
 - ruby
-- java
-jdk: openjdk8
 cache: bundler
 rvm:
 - 2.5.0
