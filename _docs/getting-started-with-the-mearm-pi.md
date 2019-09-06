@@ -40,9 +40,13 @@ First we will update your system, it may have already been done as you set up th
 
 `sudo apt-get dist-upgrade`
 
+Update the npm version (this is an issue on the current Pi4).
+
+'curl https://www.npmjs.com/install.sh | sudo sh'
+
 Now we will install some required software...
 
-`sudo apt-get install -y git pigpio nodejs npm`
+`sudo apt-get install -y install pigpio python-pigpio python3-pigpio`
 
 Install the MeArm software.
 
