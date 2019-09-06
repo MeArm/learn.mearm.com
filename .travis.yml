@@ -4,7 +4,11 @@ language:
 jdk: openjdk8
 cache: bundler
 rvm:
+<<<<<<< HEAD
 - 2.6.0
+=======
+- 2.5.0
+>>>>>>> parent of 9c8cb6d... bump rvm
 script: ./bin/test
 
 git:
