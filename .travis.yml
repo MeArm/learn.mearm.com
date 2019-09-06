@@ -1,7 +1,7 @@
 language:
 - ruby
 - java
-jdk: openjdk10
+jdk: openjdk9
 cache: bundler
 rvm:
 - 2.6.4
