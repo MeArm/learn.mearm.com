@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build --trace
+bundle exec jekyll build --trace --incremental
 bundle exec htmlproofer ./_site --alt-ignore "/.*/" --disable-external --allow-hash-href --url-ignore "/#.*=.*/"
