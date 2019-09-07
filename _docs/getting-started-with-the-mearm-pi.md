@@ -42,7 +42,7 @@ First we will update your system, it may have already been done as you set up th
 
 Update the npm version (this is an issue on the current Pi4).
 
-'curl https://www.npmjs.com/install.sh | sudo sh'
+`curl https://www.npmjs.com/install.sh | sudo sh`
 
 Now we will install some required software...
 
