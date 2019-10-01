@@ -46,7 +46,7 @@ Update the npm version (this is an issue on the current Pi4).
 
 Now we will install some required software...
 
-`sudo apt-get install -y install pigpio python-pigpio python3-pigpio`
+`sudo apt-get install -y pigpio python-pigpio python3-pigpio`
 
 Install the MeArm software.
 
