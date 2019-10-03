@@ -22,7 +22,7 @@ To build the MeArm Robot Kit for Raspberry Pi you should first set up your Raspb
 
 This is the control board that comes with your MeArm Robot Kit for Raspberry Pi. Push it down onto the "GPIO" pins on the Raspberry Pi, these are the two rows of pins along one edge of the Raspberry Pi. The pins should match up with the socket on the MeArm Raspberry Pi Hat.
 Early version of the MeArm Pi had a USB power socket on the MeArm Pi Hat, so the robot and Raspberry Pi could be powered by the same power supply. The most recent versions include a 2.1mm barrel jack connector and a 4 x AA battery pack, and require you to power the Raspberry Pi separately. This solves the rare issue of either the Pi or the MeArm drawing too much power and "browning out" the whole set up, and also helps future proof the MeArm Pi.
-This also means you can switch off the MeArm without switching off the Raspberry Pi.
+This also means you can switch off the MeArm without switching off the Raspberry Pi, since there is a switch on the battery pack. Ensure this is switched on when you want to run the MeArm!
 If you like you can power use an external 6V 2A+ power supply instead of batteries.
 
 ## Set up your Raspberry Pi
