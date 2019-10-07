@@ -79,7 +79,7 @@ Using the Joysticks you should be able control the servo motors manually.
 
 Now open web browser on your raspberry pi and go to "http://localhost:80"
 
-This will bring up the web interface, where you can pick a coding language app.  Once you've clicked through, click on the wifi logo and place the address "http://localhost:80" into the pop up box. Now you should be able to control the servo motors with the selected app, and use the sliders at the top to be able to set the positions of the servo motors.
+This will bring up the web interface, where you can pick a coding language app.  Once you've clicked through, click on the wifi logo and place the address "localhost" into the pop up box. Now you should be able to control the servo motors with the selected app, and use the sliders at the top to be able to set the positions of the servo motors.
 
 ## Setting the Servo Motors
 
