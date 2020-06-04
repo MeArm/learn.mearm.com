@@ -47,7 +47,7 @@ Once the code has uploaded you will have the latest version of the MeArm softwar
 
 To do this we need to add another tool to the Arduino IDE which allows us to add apps to the MeArm Wifi, giving us access to Blockly, Javascript and Python.
 
-Download the latest version of the plugin on [this website](https://github.com/esp8266/arduino-esp8266fs-plugin/release). 
+Download the latest version of the plugin on [this website](https://github.com/esp8266/arduino-esp8266fs-plugin/releases). 
 
 Unzip the contents and place it in the tools folder of your Arduino directory (for most this is in your Documents directory). You may need to create a new folder called "tools". The final path will look something like this:
 
