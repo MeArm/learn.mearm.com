@@ -21,7 +21,7 @@ Next we add support for the ESP8266 microcontroller and our own libraries. To do
 
 Launch the Arduino IDE and click on "File-> Preferences".
 
-In "Additional Boards Manager URLs" add "http://arduino.esp8266.com/stable/package_esp8266com_indes.json" and click on "OK"
+In "Additional Boards Manager URLs" add "http://arduino.esp8266.com/stable/package_esp8266com_index.json" and click on "OK"
 
 Go to "Tools->Board->Boards Manager", type "ESP8266" and install the support package.
 
