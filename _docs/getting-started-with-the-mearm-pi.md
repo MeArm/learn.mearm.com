@@ -89,4 +89,10 @@ Using the slider controllers, set the Base Servo to 0, the Lower Servo to 90, th
 
 ## Build your MeArm Robot Arm
 
-Once calibrated, disconnect the servo motors and MeArm Base Board and follow the build instructions for your [model of the MeArm](https://learn.mearm.com).
+Once calibrated, disconnect the servo motors and MeArm Base Board and follow the build instructions for your model of the MeArm.
+
+If you have an older V2 Model with Elastic Bands in your fixings kit see [these instructions](http://learn.mearm.com/docs/building-the-mearm-v2/).
+
+If yours is a newer V3 (for example from Kitronik) then use [these instructions](http://learn.mearm.com/docs/building-the-mearm-v3/).
+
+
