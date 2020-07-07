@@ -23,7 +23,7 @@ Attach the servo motors provided to your MeArm Base Board, matching the Orange w
 
 Power the MeArm Control Board using the battery pack included or a 5-6V 2A+ power supply (6V is best, power supplies sold separately). Powering via the battery pack is the best option, as it provides 6V power for the servos. If using a USB power supply make sure you are using the power port on the MeArm Control Board rather than the programming port on the BBC micro:bit.
 
-![](/assers/docs/mearm-microbit-setup/usb.jpg)
+![](/assets/docs/mearm-microbit-setup/usb.jpg)
 
 Your Servo Motors should spring to life as the BBC micro:bit is powered via the MeArm Control Board, defaulting to their 90 degree positions. Attach the following servo horns in the following positions.
 
