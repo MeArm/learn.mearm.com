@@ -21,7 +21,7 @@ Attach a micro USB cable (sold separately) to the BBC micro:bit and drag and dro
 
 Attach the servo motors provided to your MeArm Base Board, matching the Orange wire to the Y (or O on later boards). Connect the MeArm micro:bit Board and MeArm Base Board together using the 6 pin ribbon cable provided.
 
-Power the MeArm Control Board using the battery pack included or a 5-6V 2A+ power supply (power supply sold separately). If using a USB power supply make sure you are using the power port on the MeArm Control Board rather than the programming port on the BBC micro:bit.
+Power the MeArm Control Board using the battery pack included or a 5-6V 2A+ power supply (6V is best, power supplies sold separately). Powering via the battery pack is the best option, as it provides 6V power for the servos. If using a USB power supply make sure you are using the power port on the MeArm Control Board rather than the programming port on the BBC micro:bit.
 
 ![](/assers/docs/mearm-microbit-setup/usb.jpg)
 
