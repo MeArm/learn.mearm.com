@@ -13,7 +13,7 @@ level: core
 
 Attach the MeArm micro:bit Board to your MeArm base, using the screws provided. Push the plastic thumb caps down onto the joysticks firmly.
 
-Plug in your BBC micro:bit (sold separately) into the socket on the MeArm micro:bit Board.
+Plug in your BBC micro:bit (sold separately) into the socket on the MeArm Control Board.
 
 Attach a micro USB cable (sold separately) to the BBC micro:bit and drag and drop the [following hex code](http://downloads.mearm.com/MeArm/MeArm-microbit.hex) into the BBC micro:bit device using your PC, chromebook, or Mac (all sold separately). 
 
@@ -21,9 +21,11 @@ Attach a micro USB cable (sold separately) to the BBC micro:bit and drag and dro
 
 Attach the servo motors provided to your MeArm Base Board, matching the Orange wire to the Y (or O on later boards). Connect the MeArm micro:bit Board and MeArm Base Board together using the 6 pin ribbon cable provided.
 
-Power the MeArm micro:bit Board using a 2A+ 5V USB Power Supply or a 6V AA battery pack (both sold separately).
+Power the MeArm Control Board using the battery pack included or a 5-6V 2A+ power supply (power supply sold separately). If using a USB power supply make sure you are using the power port on the MeArm Control Board rather than the programming port on the BBC micro:bit.
 
-Your Servo Motors should spring to life as the BBC micro:bit is powered, defaulting to their 90 degree positions. Attach the following servo horns in the following positions.
+![](/assers/docs/mearm-microbit-setup/usb.jpg)
+
+Your Servo Motors should spring to life as the BBC micro:bit is powered via the MeArm Control Board, defaulting to their 90 degree positions. Attach the following servo horns in the following positions.
 
 ![](/assets/docs/mearm-microbit-setup/Servoset.png)
 

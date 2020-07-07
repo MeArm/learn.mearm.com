@@ -36,7 +36,7 @@ It is also possible to reprogram your Arduino Compatible Board using the [Arduin
 
 There are some additional steps to follow once downloading the IDE, before you can interact with the board over your USB connection. Follow the instructions on the [ESP8266](http://esp8266.github.io/Arduino/versions/2.3.0/doc/installing.html) page to set up the board manager. 
 
-Download the [Marceu library](https://github.com/mimeindustries/Marceau) and [MeArm libraries](https://github.com/mimeindustries/MeArm-Arduino) from our Github and follow the instructions to expand your control of the device. We understand this is an advanced step, but we are working to make this a more simple process.
+Download the [Marceau library](https://github.com/mimeindustries/Marceau) and [MeArm libraries](https://github.com/mimeindustries/MeArm-Arduino) from our Github and follow the instructions to expand your control of the device. We understand this is an advanced step, but we are working to make this a more simple process.
 
-Some users have an experienced an issue where you need to reset the ESP8266, this is done by grounding P0. P0 is available on the underside of the Arduino Compatible board.
+Some users have experienced an issue where you need to reset the ESP8266, this is done by grounding P0. P0 is available on the underside of the Arduino Compatible board.
 
