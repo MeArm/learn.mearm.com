@@ -11,8 +11,7 @@ type: instruction
 level: core
 ---
 
-Required Materials in this Guide
-================================
+## Required Materials in this Guide
 
 MeArm micro:bit Kit (4505 or 4506) which includes:
 - Acrylic Parts (4 x Acrylic Plates)
@@ -30,8 +29,7 @@ Not included *but required*
  - Personal Computer
  - 4 x AA Batteries or a suitable 6V 2A Power Supply
 
-Calibration of Servo Motors
-===========================
+## Calibration of Servo Motors
 
 Attach the MeArm micro:bit Board (PCB4503) to your MeArm base, using the screws provided. Push the plastic thumb caps down onto the joysticks firmly. We will refer to this as the MeArm Control Board from here, so not to confuse it with the BBC micro:bit.
 
@@ -51,10 +49,22 @@ Your Servo Motors should spring to life as the BBC micro:bit is powered via the 
 
 ![](/assets/docs/mearm-microbit-setup/Servoset.png)
 
-This is the calibration of your servo motors completed. Use them as required in the [MeArm build instructions](https://learn.mime.co.uk/docs/building-the-mearm-v3). Note you have a MeArm micro:bit version, not a MeArm Arduino as shown in the video.
+This is the calibration of your servo motors completed. 
+
+## Building Your MeArm
+
+Click [here](/assets/mearm.pdf) to download the latest instructions for the MeArm v3, which is the only version used for the MeArm micro:bit Kit. 
+
+Additionally, in association with [Kitronik](http://www.kitronik.co.uk), we have produced this set of video instructions:
+
+**Please note the video shows the MeArm Arduino Version. You can skip ahead for the servo calibration step as you have already completed it**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPdbs9b5udQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Coding with Your MeArm
 
 Once your MeArm is complete you can explore our make code blocks, by either dragging and dropping the hex code you've downloaded into the browser at [makecode.microsoft.org](https://makecode.microsoft.org/#editor) or adding our package from [GitHub](https://github.com/MeArm/pxt-microbit-mearm).
 
 ![](/assets/docs/mearm-microbit-setup/Code5.png)
 
-
+Thank you for following along and supporting MeArm.
