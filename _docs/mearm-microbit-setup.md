@@ -15,15 +15,15 @@ Required Materials in this Guide
 ================================
 
 MeArm micro:bit Kit (4505 or 4506) which includes:
- - Acrylic Parts (spread over 4 x Acrylic Plates)
- - Screws, Rubber Feet, and Hex Wrench (Packaged together)
- - MeArm micro:bit Board (PCB4503 AKA MeArm Control Board)
- - MeArm Base Board (PCB4502)	
- - 4 x Metal Gear Servo Motors, Servo Horns, and Screws
- - 6 Pin Rainbow Cable
- - 4 x AA Battery Pack
+- Acrylic Parts (4 x Acrylic Plates)
+- Screws, Rubber Feet, and Hex Wrench (Packaged together)
+- MeArm micro:bit Board (PCB4503 AKA MeArm Control Board)
+- MeArm Base Board (PCB4502)	
+- 4 x Metal Gear Servo Motors, Servo Horns, and Screws
+- 6 Pin Rainbow Cable
+- 4 x AA Battery Pack
 
-Not inclued but required:
+Not included *but required*
  - BBC micro:bit microcontroller
  - Small crosshead screwdriver
  - USB Programming Cable (NB some USB Charging Cables do not have a data line)
