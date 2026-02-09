@@ -2,7 +2,7 @@ name: Build & Deploy (Jekyll → S3)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     # Optional: only run when site-related files change
     # paths:
     #   - "**/*.md"
