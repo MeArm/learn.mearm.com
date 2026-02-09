@@ -1,0 +1,56 @@
+name: Build & Deploy (Jekyll → S3)
+
+on:
+  push:
+    branches: [ main ]
+    # Optional: only run when site-related files change
+    # paths:
+    #   - "**/*.md"
+    #   - "**/*.html"
+    #   - "**/*.yml"
+    #   - "_assets/**"
+    #   - "_includes/**"
+    #   - "_layouts/**"
+    #   - "_posts/**"
+    #   - "_docs/**"
+    #   - "Gemfile"
+    #   - "Gemfile.lock"
+    #   - "s3_website.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-learn-mearm
+  cancel-in-progress: true
+
+jobs:
+  build_test_deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      JEKYLL_ENV: production
+      S3ID: ${{ secrets.S3ID }}
+      S3SECRET: ${{ secrets.S3SECRET }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Install gems
+        run: bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build --destination _site
+
+      - name: HTML proof (internal links)
+        run: bundle exec htmlproofer ./_site --disable-external
+
+      - name: Deploy to S3 (s3_website)
+        run: bundle exec s3_website push
