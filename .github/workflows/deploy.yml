@@ -40,7 +40,18 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.7"
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Install system libraries for Nokogiri
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev
+
+      - name: Configure Nokogiri to use system libraries
+        run: bundle config set build.nokogiri --use-system-libraries
+
+      - name: Install gems
+        run: bundle install
 
       - name: Build site
         run: bundle exec jekyll build --destination _site
