@@ -50,8 +50,10 @@ jobs:
       - name: Configure Nokogiri to use system libraries
         run: bundle config set build.nokogiri --use-system-libraries
 
-      - name: Install gems
-        run: bundle install
+      - name: Regenerate Gemfile.lock
+        run: |
+            rm -f Gemfile.lock
+            bundle install
 
       - name: Build site
         run: bundle exec jekyll build --destination _site
