@@ -56,8 +56,8 @@ jobs:
 
       - name: Install gems
         run: |
-        rm -f Gemfile.lock
-        bundle _1.13.1_ install
+            rm -f Gemfile.lock
+            bundle _1.13.1_ install
 
 
       - name: Build site
