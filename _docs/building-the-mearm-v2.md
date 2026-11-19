@@ -14,7 +14,7 @@ type: instruction
 level: core
 ---
 
-If your MeArm pack contains elastic bands, then these are the instructions for you. If it does not contain elastic bands, check out the [MeArm V1]() or [MeArm V3](http://learn.mearm.com/docs/building-the-mearm-v3/) instructions.
+If your MeArm pack contains elastic bands, then these are the instructions for you. If it does not contain elastic bands, check out the [MeArm V1]() or [MeArm V3](https://learn.mearm.com/docs/building-the-mearm-v3/) instructions.
 
 This video shows the whole build process. 
 
