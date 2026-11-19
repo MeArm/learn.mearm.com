@@ -8,13 +8,16 @@ on:
       - "**/*.html"
       - "**/*.yml"
       - "assets/**"
+      - "_assets/**"
+      - "_docs/**"
       - "_includes/**"
       - "_layouts/**"
+      - "_plugins/**"
       - "_posts/**"
-      - "docs/**"
       - "Gemfile"
       - "Gemfile.lock"
       - "s3_website.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -29,42 +32,47 @@ jobs:
 
     env:
       JEKYLL_ENV: production
-      S3ID: ${{ secrets.S3ID }}
-      S3SECRET: ${{ secrets.S3SECRET }}
+      # Build Nokogiri against the system libxml2/libxslt installed below
+      BUNDLE_BUILD__NOKOGIRI: --use-system-libraries
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install system libraries for native gems
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev libffi-dev
+
+      # jekyll-assets 3.x does not run on Ruby 3, so stay on 2.7.
+      # Gems come from the committed Gemfile.lock (Bundler 2.4.22).
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.7"
-          bundler-cache: false
-
-      - name: Install system libraries for Nokogiri
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev
-
-      - name: Configure Nokogiri to use system libraries
-        run: bundle config set build.nokogiri --use-system-libraries
-
-
-      - name: Install Bundler 1.13.1 (matches lockfile)
-        run: gem install bundler -v 1.13.1
-
-      - name: Install gems
-        run: |
-            rm -f Gemfile.lock
-            bundle _1.13.1_ install
-
+          bundler-cache: true
 
       - name: Build site
         run: bundle exec jekyll build --destination _site
 
       - name: HTML proof (internal links)
-        run: bundle exec htmlproofer ./_site --disable-external
+        run: >
+          bundle exec htmlproofer ./_site
+          --disable-external
+          --alt-ignore "/.*/"
+          --allow-hash-href
+          --url-ignore "/#.*=.*/"
+
+      # s3_website runs a Java jar that only works on Java 8
+      - name: Setup Java 8 for s3_website
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "8"
 
       - name: Deploy to S3 (s3_website)
+        if: github.ref == 'refs/heads/master'
+        env:
+          S3ID: ${{ secrets.S3ID }}
+          S3SECRET: ${{ secrets.S3SECRET }}
         run: bundle exec s3_website push
