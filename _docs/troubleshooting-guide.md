@@ -14,10 +14,10 @@ v2 Hardware Troubleshooting
 ---------------------------
 
 ### I can't connect to the Mirobot WiFi network
-Early versions of the firmware had a problem with connecting to the Mirobot access point for some devices. If you have access to a Windows or Android device please try using that to access it and then make it join your network. Once you've got it on your network you can update the firmware which should solve this problem. If you are unable to get it on your network, please email [info@mirobot.io](mailto:info@mirobot.io) to arrange for a replacement.
+Early versions of the firmware had a problem with connecting to the Mirobot access point for some devices. If you have access to a Windows or Android device please try using that to access it and then make it join your network. Once you've got it on your network you can update the firmware which should solve this problem. If you are unable to get it on your network, please email [service@mearm.com](mailto:service@mearm.com) to arrange for a replacement.
 
 ### I'm having problems updating the firmware
-If the firmware update doesn't seem to be doing anything, please try using the Chrome browser. If it still doesn't seem to be working, email [info@mirobot.io](mailto:info@mirobot.io) for help.
+If the firmware update doesn't seem to be doing anything, please try using the Chrome browser. If it still doesn't seem to be working, email [service@mearm.com](mailto:service@mearm.com) for help.
 
 ### What do the flashing lights mean?
 There are three lights on the v2 Mirobot:
