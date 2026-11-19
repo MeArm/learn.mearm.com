@@ -21,7 +21,7 @@ PLEASE NOTE 6V MAX on the Brains Board!
 
  - [Build Guide for MeArm v1.1 (Instructables pdf)](/assets/docs/building-the-mearm-v1/MeArm-V1.1.pdf)
 
- - [Hacking the Brains Board](http://learn.mearm.com/docs/reprogramming-the-mearm-deluxe/)
+ - [Hacking the Brains Board](https://learn.mearm.com/docs/reprogramming-the-mearm-deluxe/)
  
 ![](/assets/docs/building-the-mearm-v1/Nuka_Deluxe_on_White_Short_Crop_4200_grande.jpg)
 
